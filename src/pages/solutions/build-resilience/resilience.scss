@@ -1,0 +1,63 @@
+@import "../../../assets/styles/global";
+
+.br-container {
+    height: 100%;
+    width: 100%;
+    #br-1 {
+        margin-top: 4%;
+        height: 50vh;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../../assets/images/solutions/build-resilience/br-bg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.6;
+        }
+        .heading {
+            gap: 2em;
+            color: $white;
+            text-align: center;
+            height: 100%;
+            isolation: isolate;
+            p {
+                width: 90%;
+            }
+        }
+    }
+    #br-2 {
+        height: 50vh;
+        .heading {
+            height: 100%;
+            gap: 2em;
+            ul {
+                padding: 0;
+                li {
+                    padding: 10px 5px;
+                }
+            }
+        }
+    }
+    #br-3 {
+        background-color: #f7f7f7;
+        height: 50vh;
+        text-align: center;
+        .heading {
+            height: 30%;
+        }
+        .card-container {
+            height: 70%;
+            .cards {
+                height: 80%;
+                width: 30%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+}

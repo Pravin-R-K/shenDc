@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,
+body {
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.f-between {
+  justify-content: space-between;
+}
+
+.f-around {
+  justify-content: space-around;
+}
+
+.f-align-center {
+  align-items: center;
+}
+
+.f-justify-center {
+  justify-content: center;
+}
+
+.nav-link {
+  font-size: 1.5em;
+}
+
+.heading-1 {
+  font-size: 6em;
+}
+
+.heading-2 {
+  font-size: 4.5em;
+}
+
+.heading-3 {
+  font-size: 4em;
+}
+
+.heading-4 {
+  font-size: 3.5em;
+}
+
+.heading-5 {
+  font-size: 2em;
+}
+
+.main-para {
+  font-size: 2em;
+}
+
+.sub-para,
+span {
+  font-size: 1.5em;
+}
+
+.hyper-link {
+  font-size: 1.1em;
+}
+
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.main-para,
+.sub-para {
+  margin: 0;
+  padding: 0;
+}
+
+.ics-container {
+  height: 100%;
+  width: 100%;
+}
+.ics-container #ics-1 {
+  background-color: #f7f7f7;
+  margin-top: 4%;
+  height: 50vh;
+}
+.ics-container #ics-1 .heading {
+  gap: 2em;
+  height: 100%;
+  text-align: center;
+}
+.ics-container #ics-1 .heading p {
+  width: 90%;
+}
+.ics-container #ics-2 {
+  height: 75vh;
+  position: relative;
+  background-color: #000;
+}
+.ics-container #ics-2::before {
+  background-image: url("../../../assets/images/products-services/interconnection-services/ics-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.7;
+}
+.ics-container #ics-2 .heading {
+  gap: 2em;
+  color: #fff;
+  text-align: center;
+  height: 100%;
+  isolation: isolate;
+}
+.ics-container #ics-2 .heading p {
+  width: 90%;
+}
+.ics-container #ics-3 {
+  background-color: #f7f7f7;
+  height: 120vh;
+  text-align: center;
+}
+.ics-container #ics-3 .heading {
+  text-align: center;
+  height: 15%;
+}
+.ics-container #ics-3 .card-container {
+  height: 85%;
+}
+.ics-container #ics-3 .card-container .sub-container {
+  height: 100%;
+  width: 100%;
+}
+.ics-container #ics-3 .card-container .cards {
+  cursor: pointer;
+  height: 70%;
+  width: 30%;
+  padding: 20px;
+}
+.ics-container #ics-3 .card-container .cards .hyper-link {
+  font-style: none;
+  gap: 1em;
+}
+.ics-container #ics-3 .card-container .cards h5 {
+  font-style: oblique;
+}/*# sourceMappingURL=interconnection.css.map */

@@ -1,0 +1,56 @@
+@import "../../../../assets/styles/global";
+
+.cloud-routing-conatiner {
+    height: 100%;
+    width: 100%;
+    #mcr-1 {
+        margin-top: 5%;
+        height: 90vh;
+        .sub-container {
+            height: 100%;
+            .heading {
+                height: 85%;
+                width: 50%;
+                padding: 0 20px;
+                p {
+                    width: 90%;
+                }
+            }
+        }
+    }
+    #mcr-2 {
+        height: 60vh;
+        text-align: center;
+        .heading {
+            height: 20%;
+        }
+        .card-container {
+            height: 80%;
+            .cards {
+                height: 80%;
+                width: 30%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+    #mcr-3 {
+        height: 90vh;
+        .heading {
+            text-align: center;
+            height: 15%;
+        }
+        .desc {
+            height: 85%;
+            .points {
+                width: 50%;
+                gap: 1.5em;
+                span {
+                    font-size: 2em;
+                    color: #0eb768;
+                }
+            }
+        }
+    }
+}

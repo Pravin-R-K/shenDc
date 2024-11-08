@@ -1,0 +1,36 @@
+@import "../../../../assets/styles/global";
+
+.baremetal-container {
+    height: 100%;
+    width: 100%;
+    #bmc-1 {
+        height: 30vh;
+        margin-top: 5%;
+        .heading {
+            gap: 2em;
+            text-align: center;
+            height: 100%;
+        }
+    }
+    #bmc-2 {
+        height: 75vh;
+        text-align: center;
+        .heading {
+            height: 15%;
+        }
+        .card-container {
+            height: 85%;
+            .sub-container {
+                height: 90%;
+                width: 100%;
+                .cards {
+                    height: 90%;
+                    width: 30%;
+                    h5 {
+                        font-style: oblique;
+                    }
+                }
+            }
+        }
+    }
+}

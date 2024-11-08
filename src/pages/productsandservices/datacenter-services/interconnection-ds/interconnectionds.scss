@@ -1,0 +1,75 @@
+@import "../../../../assets/styles/global";
+
+.interconnection-ds-container {
+    height: 100%;
+    width: 100%;
+    #inds-1 {
+        margin-top: 5%;
+        height: 50vh;
+        .heading {
+            height: 100%;
+            .desc {
+                gap: 2em;
+                width: 70%;
+            }
+        }
+    }
+    .inds-heading {
+        text-align: center;
+        padding: 30px 10px;
+        background-color: $black;
+        color: $white;
+        width: 25%;
+    }
+    #inds-2 {
+        height: 75vh;
+        .heading {
+            height: 100%;
+        }
+        .desc {
+            height: 90%;
+            width: 60%;
+            padding: 5px;
+            .lists {
+                padding: 0 10px;
+                .list-desc {
+                    gap: 1em;
+                }
+            }
+        }
+    }
+    #inds-3 {
+        height: 75vh;
+        .heading {
+            height: 100%;
+        }
+        .desc {
+            height: 80%;
+            width: 60%;
+            padding: 5px;
+            .lists {
+                padding: 0 10px;
+                .list-desc {
+                    gap: 1em;
+                }
+            }
+        }
+    }
+    #inds-4 {
+        height: 75vh;
+        .heading {
+            height: 100%;
+        }
+        .desc {
+            height: 80%;
+            width: 60%;
+            padding: 5px;
+            .lists {
+                padding: 0 10px;
+                .list-desc {
+                    gap: 1em;
+                }
+            }
+        }
+    }
+}

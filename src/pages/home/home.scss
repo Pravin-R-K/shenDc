@@ -1,0 +1,125 @@
+@import "../../assets/styles/global";
+
+.home-container {
+    height: 100%;
+    width: 100%;
+    #home-1 {
+        margin-top: 4%;
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../assets/images/home/dig-structure-home.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.7;
+        }
+        .heading {
+            color: $white;
+            height: 60%;
+            width: 65%;
+            padding: 5px 30px;
+            isolation: isolate;
+        }
+    }
+    #home-2 {
+        height: 40vh;
+        background-color: #f5f5f5;
+        .heading {
+            height: 50%;
+        }
+        .card-container {
+            height: 50%;
+            font-weight: bold;
+            p {
+                height: max-content;
+            }
+        }
+    }
+    #home-3 {
+        background-image: url("../../assets/images/home/right-dig-structure-home.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .heading {
+            text-align: center;
+            width: 70%;
+            height: 40%;
+            padding: 5px 30px;
+        }
+    }
+    #home-4 {
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../assets/images/home/deploy-flex-home.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.6;
+        }
+        .heading {
+            color: $white;
+            width: 60%;
+            height: 40%;
+            padding: 5px 30px;
+            isolation: isolate;
+        }
+    }
+    #home-5 {
+        background-image: url("../../assets/images/home/platform-shen-home.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .heading {
+            text-align: center;
+            width: 70%;
+            height: 40%;
+            padding: 5px 30px;
+        }
+    }
+    #home-6 {
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../assets/images/home/better-future-home.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.6;
+        }
+        .heading {
+            color: $white;
+            width: 60%;
+            height: 40%;
+            padding: 5px 30px;
+            isolation: isolate;
+        }
+    }
+}

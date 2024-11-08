@@ -1,0 +1,78 @@
+@import "../../../assets/styles/global";
+
+.mc-container {
+    height: 100%;
+    width: 100%;
+    #mc-1 {
+        margin-top: 4%;
+        height: 50vh;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../../assets/images/solutions/maintain-control/mc-bg.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.5;
+        }
+        .heading {
+            gap: 2em;
+            color: $white;
+            text-align: center;
+            height: 100%;
+            isolation: isolate;
+            p {
+                width: 90%;
+            }
+        }
+    }
+    #mc-2 {
+        height: 40vh;
+        text-align: center;
+        .heading {
+            height: 100%;
+            h3,
+            p {
+                width: 85%;
+            }
+        }
+    }
+    #mc-3 {
+        height: 50vh;
+        .heading {
+            height: 100%;
+            gap: 2em;
+            ul {
+                padding: 0;
+                li {
+                    padding: 10px 5px;
+                }
+            }
+        }
+    }
+    #mc-4 {
+        height: 80vh;
+        background-color: #f7f7f7;
+        text-align: center;
+        .heading {
+            height: 15%;
+        }
+        .card-container {
+            height: 85%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+                .cards {
+                    height: 90%;
+                    width: 30%;
+                    h5 {
+                        font-style: oblique;
+                    }
+                }
+            }
+        }
+    }
+}

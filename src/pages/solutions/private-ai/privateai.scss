@@ -1,0 +1,71 @@
+@import "../../../assets/styles/global";
+
+.ai-container {
+    height: 100%;
+    width: 100%;
+    #ai-1 {
+        margin-top: 4%;
+        height: 50vh;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../../assets/images/solutions/private-ai/privateai-bg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.5;
+        }
+        .heading {
+            gap: 2em;
+            color: $white;
+            text-align: center;
+            height: 100%;
+            isolation: isolate;
+            p {
+                width: 90%;
+            }
+        }
+    }
+    #ai-2 {
+        height: 150vh;
+        text-align: center; 
+        .heading {
+            height: 10%;
+        }
+        .card-container {
+            height: 90%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+                .cards {
+                    height: 85%;
+                    width: 30%;
+                    h5 {
+                        font-style: oblique;
+                    }
+                }
+            }
+        }
+    }
+    #ai-3 {
+        background-color: #f7f7f7;
+        height: 50vh;
+        text-align: center;
+        .heading {
+            height: 30%;
+        }
+        .card-container {
+            height: 70%;
+            .cards {
+                height: 50%;
+                width: 30%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+}

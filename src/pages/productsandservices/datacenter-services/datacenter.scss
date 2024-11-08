@@ -1,0 +1,60 @@
+@import "../../../assets/styles/global";
+
+.dcs-container {
+    height: 100%;
+    width: 100%;
+    #dcs-1 {
+        background-color: #f7f7f7;
+        margin-top: 4%;
+        height: 50vh;
+        .heading {
+            gap: 2em;
+            height: 100%;
+            text-align: center;
+            p {
+                width: 90%;
+            }
+        }
+    }
+    #dcs-2 {
+        height: 70vh;
+        .dcs2-container {
+            height: 100%;
+            .heading {
+                height: 80%;
+                width: 50%;
+                padding: 0 20px;
+            }
+        }
+    }
+    #dcs-3 {
+        background-color: #f7f7f7;
+        height: 120vh;
+        text-align: center;
+        .heading {
+            text-align: center;
+            height: 15%;
+        }
+        .card-container {
+            height: 85%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+            }
+            .cards {
+                cursor: pointer;
+                height: 90%;
+                width: 30%;
+                padding: 20px;
+                .hyper-link {
+                    font-style: none;
+                    gap: 1em;
+                    height: max-content;
+                }
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+}

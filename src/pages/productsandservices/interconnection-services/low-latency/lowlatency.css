@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,
+body {
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.f-between {
+  justify-content: space-between;
+}
+
+.f-around {
+  justify-content: space-around;
+}
+
+.f-align-center {
+  align-items: center;
+}
+
+.f-justify-center {
+  justify-content: center;
+}
+
+.nav-link {
+  font-size: 1.5em;
+}
+
+.heading-1 {
+  font-size: 6em;
+}
+
+.heading-2 {
+  font-size: 4.5em;
+}
+
+.heading-3 {
+  font-size: 4em;
+}
+
+.heading-4 {
+  font-size: 3.5em;
+}
+
+.heading-5 {
+  font-size: 2em;
+}
+
+.main-para {
+  font-size: 2em;
+}
+
+.sub-para,
+span {
+  font-size: 1.5em;
+}
+
+.hyper-link {
+  font-size: 1.1em;
+}
+
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.main-para,
+.sub-para {
+  margin: 0;
+  padding: 0;
+}
+
+.latency-container {
+  height: 100%;
+  width: 100%;
+}
+.latency-container #latency-1 {
+  margin-top: 4%;
+  height: 50vh;
+  position: relative;
+  background-color: #000;
+}
+.latency-container #latency-1::before {
+  background-image: url("../../../../assets/images/products-services/interconnection-services/cross-connects/cross-connect-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.7;
+}
+.latency-container #latency-1 .heading {
+  color: #fff;
+  text-align: center;
+  height: 100%;
+  isolation: isolate;
+}
+.latency-container #latency-1 .heading h2 {
+  width: 90%;
+}
+.latency-container #latency-2 {
+  height: 50vh;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+.latency-container #latency-2 .heading {
+  gap: 2em;
+  height: 100%;
+}
+.latency-container #latency-2 .heading p {
+  width: 90%;
+}
+.latency-container #latency-3 {
+  height: 70vh;
+  text-align: center;
+}
+.latency-container #latency-3 .heading {
+  height: 20%;
+}
+.latency-container #latency-3 .card-container {
+  height: 80%;
+}
+.latency-container #latency-3 .card-container .sub-container {
+  height: 100%;
+  width: 100%;
+}
+.latency-container #latency-3 .card-container .cards {
+  height: 80%;
+  width: 40%;
+}
+.latency-container #latency-3 .card-container .cards h5 {
+  font-style: oblique;
+}
+.latency-container #latency-4 {
+  height: 50vh;
+  text-align: center;
+}
+.latency-container #latency-4 .heading {
+  height: 25%;
+}
+.latency-container #latency-4 .card-container {
+  height: 75%;
+}
+.latency-container #latency-4 .card-container .cards {
+  height: 60%;
+  width: 30%;
+}
+.latency-container #latency-4 .card-container .cards h5 {
+  font-style: oblique;
+}/*# sourceMappingURL=lowlatency.css.map */

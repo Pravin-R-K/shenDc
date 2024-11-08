@@ -1,0 +1,68 @@
+@import "../../../assets/styles/global";
+
+.emr-container {
+    height: 100%;
+    width: 100%;
+    #emr-1 {
+        margin-top: 4%;
+        background-image: url("../../../assets/images/solutions/expand-market-reach/emr-bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        .heading {
+            gap: 2em;
+            text-align: center;
+            height: 100%;
+            p {
+                width: 90%;
+            }
+        }
+    }
+    #emr-2 {
+        height: 40vh;
+        text-align: center;
+        .heading {
+            height: 100%;
+            h3,
+            p {
+                width: 85%;
+            }
+        }
+    }
+    #emr-3 {
+        height: 50vh;
+        .heading {
+            height: 100%;
+            gap: 2em;
+            ul {
+                padding: 0;
+                li {
+                    padding: 10px 5px;
+                }
+            }
+        }
+    }
+    #emr-4 {
+        height: 80vh;
+        background-color: #f7f7f7;
+        text-align: center;
+        .heading {
+            height: 20%;
+        }
+        .card-container {
+            height: 80%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+                .cards {
+                    height: 90%;
+                    width: 40%;
+                    h5 {
+                        font-style: oblique;
+                    }
+                }
+            }
+        }
+    }
+}

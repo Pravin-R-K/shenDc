@@ -1,0 +1,73 @@
+@import "../../../assets/styles/global";
+
+.ics-container {
+    height: 100%;
+    width: 100%;
+    #ics-1 {
+        background-color: #f7f7f7;
+        margin-top: 4%;
+        height: 50vh;
+        .heading {
+            gap: 2em;
+            height: 100%;
+            text-align: center;
+            p {
+                width: 90%;
+            }
+        }
+    }
+    #ics-2 {
+        height: 75vh;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../../assets/images/products-services/interconnection-services/ics-bg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.7;
+        }
+        .heading {
+            gap: 2em;
+            color: $white;
+            text-align: center;
+            height: 100%;
+            isolation: isolate;
+            p {
+                width: 90%;
+            }
+        }
+    }
+    #ics-3 {
+        background-color: #f7f7f7;
+        height: 120vh;
+        text-align: center;
+        .heading {
+            text-align: center;
+            height: 15%;
+        }
+        .card-container {
+            height: 85%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+            }
+            .cards {
+                cursor: pointer;
+                height: 70%;
+                width: 30%;
+                padding: 20px;
+                .hyper-link {
+                    font-style: none;
+                    gap: 1em;
+                }
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+}

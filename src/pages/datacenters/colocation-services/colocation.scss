@@ -1,0 +1,101 @@
+@import "../../../assets/styles/global";
+
+.cs-container {
+    #cs-1 {
+        margin-top: 4%;
+        height: 60vh;
+        .colocation-img {
+            height: 100%;
+        }
+    }
+    #cs-2 {
+        height: 100vh;
+        text-align: center;
+        .heading {
+            height: 20%;
+            p {
+                width: 75%;
+                font-style: oblique;
+            }
+        }
+        .card-container {
+            height: 80%;
+            .sub-container {
+                height: 80%;
+                width: 100%;
+                .cards {
+                    height: 75%;
+                    width: 40%;
+                    padding: 20px;
+                    h5 {
+                        font-style: oblique;
+                    }
+                }
+            }
+        }
+    }
+    #cs-3 {
+        height: 120vh;
+        text-align: center;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../../assets/images/datacenters/colocation-services/shen-difference.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.6;
+        }
+        .heading {
+            gap: 2em;
+            height: 20%;
+            color: $white;
+            isolation: isolate;
+        }
+        .card-container {
+            height: 80%;
+            isolation: isolate;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+                .cards {
+                    background-color: $white;
+                    width: 30%;
+                    height: 60%;
+                    padding: 20px;
+                    h5 {
+                        font-style: oblique;
+                    }
+                }
+            }
+        }
+    }
+    #cs-4 {
+        height: 70vh;
+        text-align: center;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../../assets/images/datacenters/colocation-services/colocation-deploy.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.7;
+        }
+        .heading {
+            gap: 2em;
+            color: $white;
+            height: 100%;
+            isolation: isolate;
+            p {
+                width: 90%;
+            }
+        }
+    }
+}

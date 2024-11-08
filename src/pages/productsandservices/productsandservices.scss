@@ -1,0 +1,147 @@
+@import "../../assets/styles/global";
+
+.ps-container {
+    height: 100%;
+    width: 100%;
+    #ps-1 {
+        margin-top: 5%;
+        height: 40vh;
+        .heading {
+            gap: 2em;
+            height: 100%;
+            text-align: center;
+            p {
+                width: 70%;
+            }
+        }
+    }
+    #ps-2 {
+        height: 70vh;
+        .heading {
+            gap: 2em;
+            text-align: center;
+            height: 30%;
+            p {
+                width: 90%;
+            }
+        }
+        .card-container {
+            background-color: #f7f7f7;
+            height: 70%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+            }
+            .cards {
+                text-align: center;
+                height: 50%;
+                width: 30%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+    #ps-3 {
+        height: 70vh;
+        .heading {
+            gap: 2em;
+            text-align: center;
+            height: 30%;
+            p {
+                width: 90%;
+            }
+        }
+        .card-container {
+            background-color: #f7f7f7;
+            height: 70%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+            }
+            .cards {
+                text-align: center;
+                height: 50%;
+                width: 30%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+    #ps-4 {
+        height: 70vh;
+        .heading {
+            gap: 2em;
+            text-align: center;
+            height: 30%;
+            p {
+                width: 90%;
+            }
+        }
+        .card-container {
+            background-color: #f7f7f7;
+            height: 70%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+            }
+            .cards {
+                text-align: center;
+                height: 50%;
+                width: 30%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+    #ps-5 {
+        height: 70vh;
+        .heading {
+            gap: 2em;
+            text-align: center;
+            height: 40%;
+            p {
+                width: 90%;
+            }
+        }
+        .card-container {
+            background-color: #f7f7f7;
+            height: 60%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+            }
+            .cards {
+                text-align: center;
+                height: 50%;
+                width: 30%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+    #ps-6 {
+        height: 70vh;
+        .heading {
+            height: 20%;
+        }
+        .card-container {
+            height: 75%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+            }
+            .cards {
+                text-align: center;
+                height: 75%;
+                width: 40%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+}

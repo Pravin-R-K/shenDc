@@ -1,0 +1,17 @@
+@import "../../../assets/styles/global";
+
+.about-container {
+    height: 100%;
+    width: 100%;
+    #about-1 {
+        margin-top: 5%;
+        height: 50vh;
+        .heading {
+            justify-content: space-evenly;
+            gap: 1em;
+            height: 100%;
+            width: 50%;
+            padding: 10px 30px;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+@import "../../../../assets/styles/global";
+
+.secureds-container {
+    height: 100%;
+    width: 100%;
+    #secure-1 {
+        margin-top: 4%;
+        height: 50vh;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../../../assets/images/products-services/datacenter-services/secure-ds/secure-ds-bg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.6;
+        }
+        .heading {
+            gap: 2em;
+            color: $white;
+            text-align: center;
+            height: 100%;
+            isolation: isolate;
+            h2,
+            p {
+                width: 90%;
+            }
+        }
+    }
+    .secure-heading {
+        margin-top: 1%;
+        text-align: center;
+        padding: 30px 10px;
+        background-color: $black;
+        color: $white;
+        width: 20%;
+    }
+    #secure-2 {
+        height: 60vh;
+        text-align: center;
+        .card-container {
+            height: 100%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+                .cards {
+                    height: 70%;
+                    width: 40%;
+                    h5 {
+                        font-style: oblique;
+                    }
+                }
+            }
+        }
+    }
+}

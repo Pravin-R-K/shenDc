@@ -1,0 +1,54 @@
+@import "../../../../assets/styles/global";
+
+.ep-container {
+    height: 100%;
+    width: 100%;
+    #ep-1 {
+        margin-top: 4%;
+        height: 50vh;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../../../assets/images/products-services/support-services/experience-professionals/experience-professionals-bg.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.6;
+        }
+        .heading {
+            text-align: center;
+            color: $white;
+            height: 100%;
+            gap: 2em;
+            isolation: isolate;
+            h2, h4, p {
+                width: 90%;
+            }
+        }
+    }
+    .ep-heading {
+        margin-top: 1%;
+        text-align: center;
+        padding: 30px 10px;
+        background-color: $black;
+        color: $white;
+        width: 10%;
+    }
+    #ep-2 {
+        height: 30vh;
+        text-align: center;
+        .card-container {
+            height: 100%;
+            .cards {
+                height: 70%;
+                width: 30%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+}

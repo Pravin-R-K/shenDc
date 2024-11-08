@@ -1,0 +1,87 @@
+@import "../../../assets/styles/global";
+
+.network-container {
+    height: 100%;
+    width: 100%;
+    #network-1 {
+        margin-top: 4%;
+        height: 50vh;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../../assets/images/solutions/networking/network-bg.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.7;
+        }
+        .heading {
+            gap: 2em;
+            color: $white;
+            text-align: center;
+            height: 100%;
+            isolation: isolate;
+            h1, p {
+                width: 90%;
+            }
+        }
+    }
+    #network-2 {
+        height: 100vh;
+        .heading {
+            height: 20%;
+        }
+        .card-container {
+            height: 80%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+                .cards {
+                    height: 80%;
+                    width: 30%;
+                    padding: 20px;
+                    h5 {
+                        font-style: oblique;
+                    }
+                    ul {
+                        padding: 0 0 0 20px;
+                        li {
+                            padding: 5px 0 5px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #network-3 {
+        background-color: #f7f7f7;
+        height: 50vh;
+        text-align: center;
+        .heading {
+            height: 30%;
+        }
+        .card-container {
+            height: 70%;
+            .cards {
+                height: 80%;
+                width: 30%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+    #network-4 {
+        height: 75vh;
+        .heading {
+            text-align: center;
+            height: 30%;
+        }
+        .network4-img {
+            height: 70%;
+        }
+    }
+}

@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,
+body {
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.f-between {
+  justify-content: space-between;
+}
+
+.f-around {
+  justify-content: space-around;
+}
+
+.f-align-center {
+  align-items: center;
+}
+
+.f-justify-center {
+  justify-content: center;
+}
+
+.nav-link {
+  font-size: 1.5em;
+}
+
+.heading-1 {
+  font-size: 6em;
+}
+
+.heading-2 {
+  font-size: 4.5em;
+}
+
+.heading-3 {
+  font-size: 4em;
+}
+
+.heading-4 {
+  font-size: 3.5em;
+}
+
+.heading-5 {
+  font-size: 2em;
+}
+
+.main-para {
+  font-size: 2em;
+}
+
+.sub-para,
+span {
+  font-size: 1.5em;
+}
+
+.hyper-link {
+  font-size: 1.1em;
+}
+
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.main-para,
+.sub-para {
+  margin: 0;
+  padding: 0;
+}
+
+.compute-container {
+  height: 100%;
+  width: 100%;
+}
+.compute-container #compute-1 {
+  margin-top: 4%;
+  height: 50vh;
+  position: relative;
+  background-color: #000;
+}
+.compute-container #compute-1::before {
+  background-image: url("../../../assets/images/solutions/compute/compute-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+}
+.compute-container #compute-1 .heading {
+  gap: 2em;
+  color: #fff;
+  text-align: center;
+  height: 100%;
+  isolation: isolate;
+}
+.compute-container #compute-1 .heading h1,
+.compute-container #compute-1 .heading p {
+  width: 90%;
+}
+.compute-container #compute-2 {
+  height: 80vh;
+  text-align: center;
+}
+.compute-container #compute-2 .heading {
+  height: 20%;
+}
+.compute-container #compute-2 .card-container {
+  height: 80%;
+}
+.compute-container #compute-2 .card-container .sub-container {
+  height: 100%;
+  width: 100%;
+}
+.compute-container #compute-2 .card-container .sub-container .cards {
+  height: 70%;
+  width: 30%;
+  padding: 20px;
+}
+.compute-container #compute-2 .card-container .sub-container .cards h5 {
+  font-style: oblique;
+}
+.compute-container #compute-3 {
+  background-color: #f7f7f7;
+  height: 50vh;
+  text-align: center;
+}
+.compute-container #compute-3 .heading {
+  height: 30%;
+}
+.compute-container #compute-3 .card-container {
+  height: 70%;
+}
+.compute-container #compute-3 .card-container .cards {
+  height: 80%;
+  width: 30%;
+}
+.compute-container #compute-3 .card-container .cards h5 {
+  font-style: oblique;
+}/*# sourceMappingURL=compute.css.map */

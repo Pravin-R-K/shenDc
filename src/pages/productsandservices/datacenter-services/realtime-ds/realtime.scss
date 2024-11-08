@@ -1,0 +1,28 @@
+@import "../../../../assets/styles/global";
+
+.realtime-container {
+    height: 100%;
+    width: 100%;
+    #realtime-1 {
+        margin-top: 5%;
+        height: 75vh;
+        text-align: center;
+        .heading {
+            height: 20%;
+        }
+        .card-container {
+            height: 80%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+                .cards {
+                    height: 90%;
+                    width: 40%;
+                    h5 {
+                        font-style: oblique;
+                    }
+                }
+            }
+        }
+    }
+}

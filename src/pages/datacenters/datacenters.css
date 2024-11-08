@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,
+body {
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.f-between {
+  justify-content: space-between;
+}
+
+.f-around {
+  justify-content: space-around;
+}
+
+.f-align-center {
+  align-items: center;
+}
+
+.f-justify-center {
+  justify-content: center;
+}
+
+.nav-link {
+  font-size: 1.5em;
+}
+
+.heading-1 {
+  font-size: 6em;
+}
+
+.heading-2 {
+  font-size: 4.5em;
+}
+
+.heading-3 {
+  font-size: 4em;
+}
+
+.heading-4 {
+  font-size: 3.5em;
+}
+
+.heading-5 {
+  font-size: 2em;
+}
+
+.main-para {
+  font-size: 2em;
+}
+
+.sub-para,
+span {
+  font-size: 1.5em;
+}
+
+.hyper-link {
+  font-size: 1.1em;
+}
+
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.main-para,
+.sub-para {
+  margin: 0;
+  padding: 0;
+}
+
+.datacenters-container {
+  height: 100%;
+  width: 100%;
+}
+.datacenters-container #datacenters-1 {
+  margin-top: 4%;
+  height: 75vh;
+  position: relative;
+  background-color: #000;
+}
+.datacenters-container #datacenters-1::before {
+  background-image: url("../../assets/images/datacenters/datacenters-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.7;
+}
+.datacenters-container #datacenters-1 .heading {
+  gap: 2em;
+  color: #fff;
+  height: 60%;
+  width: 80%;
+  padding: 5px 30px;
+  isolation: isolate;
+}
+.datacenters-container #datacenters-1 .card-container {
+  isolation: isolate;
+  color: #fff;
+  height: 30%;
+  width: 70%;
+}
+.datacenters-container #datacenters-1 .card-container .cards {
+  gap: 2em;
+  height: 100%;
+}
+.datacenters-container #datacenters-2 {
+  height: 40vh;
+  background-color: #f5f5f5;
+}
+.datacenters-container #datacenters-2 .heading {
+  gap: 2em;
+  height: 100%;
+  width: 95%;
+  text-align: center;
+}
+.datacenters-container #datacenters-2 .heading p {
+  width: 80%;
+}/*# sourceMappingURL=datacenters.css.map */

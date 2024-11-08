@@ -1,0 +1,55 @@
+@import "../../../../assets/styles/global";
+
+.resilient-container {
+    height: 100%;
+    width: 100%;
+    #resilient-1 {
+        margin-top: 4%;
+        height: 70vh;
+        .resilient1-container {
+            height: 100%;
+            .heading {
+                height: 80%;
+                width: 50%;
+            }
+        }
+    }
+    #resilient-2 {
+        height: 50vh;
+        text-align: center;
+        .heading {
+            height: 30%;
+        }
+        .card-container {
+            height: 70%;
+            .cards {
+                height: 80%;
+                width: 30%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+    #resilient-3 {
+        height: 90vh;
+        text-align: center;
+        .heading {
+            height: 15%;
+        }
+        .card-container {
+            height: 85%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+            }
+            .cards {
+                height: 80%;
+                width: 30%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+}

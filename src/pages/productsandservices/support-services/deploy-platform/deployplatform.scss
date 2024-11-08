@@ -1,0 +1,80 @@
+@import "../../../../assets/styles/global";
+
+.deploy-container {
+    height: 100%;
+    width: 100%;
+    #deploy-1 {
+        margin-top: 4%;
+        height: 70vh;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../../../assets/images/products-services/support-services/deploy-platform/deploy-platform-bg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.6;
+        }
+        .heading {
+            color: $white;
+            text-align: center;
+            height: 100%;
+            gap: 2em;
+            isolation: isolate;
+            h2,
+            h4,
+            p {
+                width: 90%;
+            }
+        }
+    }
+    .deploy-heading {
+        margin-top: 1%;
+        text-align: center;
+        padding: 30px 10px;
+        background-color: $black;
+        color: $white;
+        width: 10%;
+    }
+    #deploy-2 {
+        height: 50vh;
+        text-align: center;
+        .card-container {
+            height: 100%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+            }
+            .cards {
+                height: 70%;
+                width: 30%;
+                h5 {
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+    #deploy-3 {
+        height: 60vh;
+        .deploy3-container {
+            height: 100%;
+            .heading {
+                height: 50%;
+                width: 50%;
+            }
+        }
+    }
+    #deploy-4 {
+        height: 60vh;
+        .deploy4-container {
+            height: 100%;
+            .heading {
+                height: 70%;
+                width: 50%;
+            }
+        }
+    }
+}

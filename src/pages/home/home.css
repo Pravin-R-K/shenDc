@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,
+body {
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.f-between {
+  justify-content: space-between;
+}
+
+.f-around {
+  justify-content: space-around;
+}
+
+.f-align-center {
+  align-items: center;
+}
+
+.f-justify-center {
+  justify-content: center;
+}
+
+.nav-link {
+  font-size: 1.5em;
+}
+
+.heading-1 {
+  font-size: 6em;
+}
+
+.heading-2 {
+  font-size: 4.5em;
+}
+
+.heading-3 {
+  font-size: 4em;
+}
+
+.heading-4 {
+  font-size: 3.5em;
+}
+
+.heading-5 {
+  font-size: 2em;
+}
+
+.main-para {
+  font-size: 2em;
+}
+
+.sub-para,
+span {
+  font-size: 1.5em;
+}
+
+.hyper-link {
+  font-size: 1.1em;
+}
+
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.main-para,
+.sub-para {
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  height: 100%;
+  width: 100%;
+}
+.home-container #home-1 {
+  margin-top: 4%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #000;
+}
+.home-container #home-1::before {
+  background-image: url("../../assets/images/home/dig-structure-home.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.7;
+}
+.home-container #home-1 .heading {
+  color: #fff;
+  height: 60%;
+  width: 65%;
+  padding: 5px 30px;
+  isolation: isolate;
+}
+.home-container #home-2 {
+  height: 40vh;
+  background-color: #f5f5f5;
+}
+.home-container #home-2 .heading {
+  height: 50%;
+}
+.home-container #home-2 .card-container {
+  height: 50%;
+  font-weight: bold;
+}
+.home-container #home-2 .card-container p {
+  height: -moz-max-content;
+  height: max-content;
+}
+.home-container #home-3 {
+  background-image: url("../../assets/images/home/right-dig-structure-home.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-container #home-3 .heading {
+  text-align: center;
+  width: 70%;
+  height: 40%;
+  padding: 5px 30px;
+}
+.home-container #home-4 {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #000;
+}
+.home-container #home-4::before {
+  background-image: url("../../assets/images/home/deploy-flex-home.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+}
+.home-container #home-4 .heading {
+  color: #fff;
+  width: 60%;
+  height: 40%;
+  padding: 5px 30px;
+  isolation: isolate;
+}
+.home-container #home-5 {
+  background-image: url("../../assets/images/home/platform-shen-home.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-container #home-5 .heading {
+  text-align: center;
+  width: 70%;
+  height: 40%;
+  padding: 5px 30px;
+}
+.home-container #home-6 {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #000;
+}
+.home-container #home-6::before {
+  background-image: url("../../assets/images/home/better-future-home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+}
+.home-container #home-6 .heading {
+  color: #fff;
+  width: 60%;
+  height: 40%;
+  padding: 5px 30px;
+  isolation: isolate;
+}/*# sourceMappingURL=home.css.map */

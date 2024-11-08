@@ -1,0 +1,56 @@
+@import "../../../../assets/styles/global";
+
+.dataexpert-container {
+    height: 100%;
+    width: 100%;
+    #dataexpert-1 {
+        margin-top: 5%;
+        height: 30vh;
+        .heading {
+            text-align: center;
+            height: 100%;
+            h2 {
+                width: 90%;
+            }
+        }
+    }
+    .dataexpert-heading {
+        text-align: center;
+        padding: 30px 10px;
+        background-color: $black;
+        color: $white;
+        width: 10%;
+    }
+    #dataexpert-2 {
+        height: 50vh;
+        text-align: center;
+        .card-container {
+            height: 100%;
+            .sub-container {
+                height: 100%;
+                width: 100%;
+                .cards {
+                    height: 80%;
+                    width: 30%;
+                    h5 {
+                        font-style: oblique;
+                    }
+                }
+            }
+        }
+    }
+    #dataexpert-3 {
+        height: 60vh;
+        .heading {
+            text-align: center;
+            height: 20%;
+        }
+        .desc {
+            height: 80%;
+            .points {
+                width: 50%;
+                gap: 1em;
+            }
+        }
+    }
+}

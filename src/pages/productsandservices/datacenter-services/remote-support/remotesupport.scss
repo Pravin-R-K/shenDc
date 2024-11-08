@@ -1,0 +1,56 @@
+@import "../../../../assets/styles/global";
+
+.remote-support-container {
+    height: 100%;
+    width: 100%;
+    #remote-support-1 {
+        margin-top: 4%;
+        height: 50vh;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../../../assets/images/products-services/datacenter-services/remote-support-ds/remote-support-bg.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.6;
+        }
+        .heading {
+            gap: 2em;
+            color: $white;
+            text-align: center;
+            height: 100%;
+            isolation: isolate;
+            h2,
+            p {
+                width: 90%;
+            }
+        }
+    }
+    #remote-support-2 {
+        height: 70vh;
+        .card-container {
+            height: 100%;
+            .desc {
+                height: 80%;
+                padding: 5px;
+            }
+            .cards {
+                height: 80%;
+                width: 40%;
+                h5 {
+                    font-style: oblique;
+                }
+                .lists {
+                    padding: 0 10px;
+                    .list-desc {
+                        gap: 1em;
+                    }
+                }
+            }
+        }
+    }
+}

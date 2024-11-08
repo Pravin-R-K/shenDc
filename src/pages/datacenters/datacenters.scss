@@ -1,0 +1,54 @@
+@import "../../assets/styles/global";
+
+.datacenters-container {
+    height: 100%;
+    width: 100%;
+    #datacenters-1 {
+        margin-top: 4%;
+        height: 75vh;
+        position: relative;
+        background-color: $black;
+        &::before {
+            background-image: url("../../assets/images/datacenters/datacenters-bg.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.7;
+        }
+        .heading {
+            gap: 2em;
+            color: $white;
+            height: 60%;
+            width: 80%;
+            padding: 5px 30px;
+            isolation: isolate;
+        }
+        .card-container {
+            isolation: isolate;
+            color: $white;
+            height: 30%;
+            width: 70%;
+            .cards {
+                gap: 2em;
+                height: 100%;
+            }
+        }
+    }
+    #datacenters-2 {
+        height: 40vh;
+        background-color: #f5f5f5;
+
+        .heading {
+            gap: 2em;
+            height: 100%;
+            width: 95%;
+            text-align: center;
+            p {
+                width: 80%;
+            }
+        }
+    }
+}
